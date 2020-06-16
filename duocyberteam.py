@@ -73,7 +73,7 @@ def payload():
 	logo()
 	print "\x1b[1;97mAmbil \x1b[1;91m5 Digit angka \x1b[1;97mSetelah TAnda (:)"
 	print "Contoh Menggunakan Config Saya"
-	print "tcp://gafar97port-53967.portmap.io:\x1b[1;91m53967"
+	print "tcp://testermetasploit-46454.portmap.io:\x1b[1;91m53967"
 	print "                                     \x1b[1;91m^"
 	print "----------------------------------------------"
 	lp=raw_input("Port : ")
@@ -84,7 +84,7 @@ def payload():
 		print ' '
 	print "\x1b[1;97mMasukan LHOST"
 	print "Contoh Menggunakan Config Saya"
-	print "\x1b[1;91mgafar97port-53967.portmap.io"
+	print "\x1b[1;91mtestermetasploit-46454.portmap.io"
 	print "\x1b[1;91m                 ^"
 	print "----------------------------------------------"
 	lh=raw_input("lhost : ")
@@ -194,8 +194,8 @@ def logo():
 	f.close
 	print '---------------------------------------------------'
 	print cyan+' Author  : '+green+'DuoCyberTeam   '
-	print cyan+' Github  : '+green+'http://github.com/duocyberteam/duocyberteam '
-	print cyan+' Youtube : '+green+'Duo Cyber Team                     '
+	print cyan+' Github  : '+merah+'http://github.com/duocyberteam/duocyberteam '
+	print cyan+' Youtube : '+yellow+'Duo Cyber Team                     '
 	print putih+'---------------------------------------------------'
 	print ''
 
@@ -220,7 +220,7 @@ def remote():
       remote()
     print "\x1b[1;97mMasukan LPORT"
     print "contoh"
-    print "tcp://gafar97port-53967.portmap.io:53967=>\x1b[1;91m8080"
+    print "tcp://testermetasploit-46454.portmap.io=>\x1b[1;91m8080"
     print "\x1b[1;91m                                            ^"
     print "----------------------------------------------"
     lp =raw_input("LPORT : ")    
@@ -260,7 +260,7 @@ def baru():
     port=raw_input("Port : ") 
     print "\x1b[1;97mMasukan LHOST"
     print "Contoh Menggunakan Config Saya"
-    print "\x1b[1;91mgafar97port-53967.portmap.io" 
+    print "\x1b[1;91mtestermetasploit-46454.portmap.io" 
     print "\x1b[1;91m                 ^"
     print "----------------------------------------------"
     lh=raw_input("lhost : ")
