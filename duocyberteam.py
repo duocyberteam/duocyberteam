@@ -189,7 +189,7 @@ def malware():
     print '\r\x1b[1;91m__________________________________________«Back» '
 
 def logo():      
-	f = open('Baner/asci')
+	f = open('Baner')
 	print colored(f.read(),'yellow')
 	f.close
 	print '---------------------------------------------------'
