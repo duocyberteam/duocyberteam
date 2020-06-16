@@ -193,9 +193,9 @@ def logo():
 	print colored(f.read(),'yellow')
 	f.close
 	print '---------------------------------------------------'
-	print cyan+' Author  : '+green+'Gafar Risky {PyRAT-svg}   '
-	print cyan+' Github  : '+green+'http://github.com/PyRAT-svg/msfgaf '
-	print cyan+' Youtube : '+green+'Gafar Risky                     '
+	print cyan+' Author  : '+green+'DuoCyberTeam   '
+	print cyan+' Github  : '+green+'http://github.com/duocyberteam/duocyberteam '
+	print cyan+' Youtube : '+green+'Duo Cyber Team                     '
 	print putih+'---------------------------------------------------'
 	print ''
 
