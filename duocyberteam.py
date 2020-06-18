@@ -194,8 +194,8 @@ def logo():
 	f.close
 	print '---------------------------------------------------'
 	print cyan+' Author  : '+green+'DuoCyberTeam   '
-	print cyan+' Github  : '+merah+'http://github.com/duocyberteam/duocyberteam '
-	print cyan+' Youtube : '+yellow+'Duo Cyber Team                     '
+	print cyan+' Github  : '+green+'http://github.com/duocyberteam/duocyberteam '
+	print cyan+' Youtube : '+green+'Duo Cyber Team                     '
 	print putih+'---------------------------------------------------'
 	print ''
 
