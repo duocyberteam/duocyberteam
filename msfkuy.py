@@ -289,7 +289,8 @@ def menu():
 def pilih():
     zedd = raw_input('╚═\x1b[1;91m▶\x1b[1;97m ')
     if zedd == '':
-        time.sleep(0.01)
+        print '\x1b[1;91m[!] Can\'t empty'
+        time.sleep(2)
         os.system('clear')
         home()
     else:
