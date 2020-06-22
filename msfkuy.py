@@ -306,6 +306,9 @@ def pilih():
         os.system('clear')
         home()
     else:
+  if zedd == '0':
+      bahan()
+      else:
         if zedd == '1':
             sisip()
         else:
@@ -324,7 +327,7 @@ def pilih():
 						if zedd == '6':
 							out()
 						else:
-							print '\x1b[1;91m[!] Pilih 1-6'
+							print '\x1b[1;91m[!] Pilih 0-6'
 							os.system('clear')
 							home()
 
