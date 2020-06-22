@@ -277,7 +277,7 @@ def baru():
 def bahan():
     flush(putih+'Anda akan menginstall Metasploit Framework')
     flush(putih+'Akan memerlukan waktu 30 menit hingga 1 jam')
-    os.system('apt install metasploit -y)
+    os.system('pkg install metasploit')
     flush(putih+'Menginstall Apktool')
     nxt()
     os.system('dpkg -i apktool.deb')
