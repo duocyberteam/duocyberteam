@@ -254,7 +254,7 @@ def baru():
     name=raw_input("Name : ")  
     print "\x1b[1;97mAmbil \x1b[1;91m5 Digit angka \x1b[1;97mSetelah TAnda (:)"
     print "Contoh Menggunakan Config Saya"
-    print "tcp://gafar97port-53967.portmap.io:\x1b[1;91m53967" 
+    print "tcp://testermetasploit-46454.portmap.io:\x1b[1;91m53967" 
     print "                                     \x1b[1;91m^"
     print "----------------------------------------------"
     port=raw_input("Port : ") 
