@@ -308,7 +308,6 @@ def pilih():
         time.sleep(1)
         os.system('clear')
         home()
-        bahan()
     else:
         if zedd == '1':
             sisip()
