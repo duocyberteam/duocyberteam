@@ -275,6 +275,8 @@ def baru():
     home()
 
 def bahan():
+    os.sysytem('clear')
+    logo()
     flush(putih+'Anda akan menginstall Metasploit Framework')
     flush(putih+'Akan memerlukan waktu 30 menit hingga 1 jam')
     os.system('pkg install metasploit')
@@ -283,6 +285,7 @@ def bahan():
     os.system('dpkg -i apktool.deb')
     os.system('rm -rf apktool.deb')
     os.system('mkdir Malware')
+    raw_input('\n\x1b[1;91m[ \x1b[1;97mBack \x1b[1;91m]')
     home()
 
 def menu():
