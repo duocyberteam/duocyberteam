@@ -273,6 +273,7 @@ def baru():
     os.system('am start --user 0 -n com.haibison.apksigner/app.activities.MainActivity')
     raw_input('\n\x1b[1;91m[ \x1b[1;97mBack \x1b[1;91m]')
     home()
+
 def bahan():
     flush(putih+'Anda akan menginstall Metasploit Framework')
     flush(putih+'Akan memerlukan waktu 30 menit hingga 1 jam')
