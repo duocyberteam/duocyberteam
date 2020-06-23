@@ -77,7 +77,8 @@ echo $ungu "
   |  |___ |  \ | |  | |  | | \_ |  | ___] | |  |
 
 echo $hijau      "Code by : Konpoi <Duocyberteam>"
-""
+"""
+sleep 1
 }
 
 satu(){
@@ -209,9 +210,8 @@ fungsi
 }
 
 empat(){
-cd
-rm -fr msfkuy
-git clone http://github.com/duocyberteam/msfkuy
+clear
+git stash && git pull origin master
 sh msfkuy.sh
 }
 
