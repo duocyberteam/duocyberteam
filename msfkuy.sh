@@ -77,7 +77,7 @@ echo $ungu "
   |  |___ |  \ | |  | |  | | \_ |  | ___] | |  |
 
 echo $hijau      "Code by : Konpoi <Duocyberteam>"
-"""
+""
 }
 
 satu(){
@@ -100,11 +100,14 @@ echo
 echo $cyngga "MEMERLUKAN WAKTU 30 MENIT SAMPAI 1 JAM"
 echo $cyngga "SIAPKAN KOPINYA BIAR NUNGGUNYA GA BOSEN ,HEHE"
 echo $cyngga "INSTALLING......"
+sleep 0.1
 pkg unstable-repo
-apt install metasploit -y
+pkg install metasploit -y
+sleep 2
 clear
 fungsi
 }
+
 bahan_dua(){
 clear
 echo
@@ -214,6 +217,7 @@ sh msfkuy.sh
 
 lima(){
 logoex
+sleep 1
 exit
 }
 
