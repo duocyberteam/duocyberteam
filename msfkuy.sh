@@ -97,11 +97,11 @@ echo $cyngga "SIAPKAN KOPINYA BIAR NUNGGUNYA GA BOSEN ,HEHE"
 echo $cyngga "INSTALLING......"
 sleep 0.1
 echo
-pkg update && upgrade -y
-pkg install unstable-repo -y
+pkg update && upgrade
+pkg install unstable-repo
 termux-setup-storage
-apt update && upgrade -y
-apt install metasploit -y
+apt update && upgrade
+apt install metasploit
 sleep 0.1
 clear
 fungsi
@@ -189,7 +189,7 @@ echo
 baner
 echo
 echo $cyngga "HIDUPKAN OPEN VPN TERLEBIH DAHULU..."
-am start --user 0 -n com.android.openvpn
+am start --user 0 -n net.openvpn.openvpn/net.openvpn.unified.MainActivity
 ifconfig
 echo                                                                            
 read -p "Masukan Iptun0 nya : " tun0
