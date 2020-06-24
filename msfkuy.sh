@@ -71,7 +71,7 @@ sleep 0.1
 }
 
 logoex(){
-echo $ungu "
+echo $ungu """
  ___ ____ ____ _ _  _ ____ _  _ ____ ____ _ _  _
   |  |___ |__/ | |\/| |__| |_/  |__| [__  | |__|
   |  |___ |  \ | |  | |  | | \_ |  | ___] | |  |
@@ -102,11 +102,16 @@ echo $cyngga "MEMERLUKAN WAKTU 30 MENIT SAMPAI 1 JAM"
 echo $cyngga "SIAPKAN KOPINYA BIAR NUNGGUNYA GA BOSEN ,HEHE"
 echo $cyngga "INSTALLING......"
 sleep 0.1
-pkg unstable-repo
-pkg install metasploit -y
-sleep 2
+echo
+apt update && apt upgrade -y
+apt install git curl wget nano -y
+curl -LO https://github.com/termux/termux-packages/files/3995119/metasploit_5.0.65-1_all.deb.gz
+gunzip metasploit_5.0.65-1_all.deb.gz
+dpkg -i metasploit_5.0.65-1_all.deb
+apt install -f
+apt --fix-broken install
 clear
-fungsi
+satu
 }
 
 bahan_dua(){
@@ -160,7 +165,7 @@ echo $ungu "_________________________________________________________"
 echo
 echo $cyngga "Masukan LPORT Kalian"
 echo
-echo $putih "testermetasploit-$hijau46454$putih.portmap.io"
+echo $putih "testermetasploit-$hijau 46454$putih .portmap.io"
 echo $cyngga "Contoh LPORT saya (5 digit angka yg warna hijau)"
 echo
 read -p "Masukan LPORT kalian : " lp
@@ -191,14 +196,14 @@ echo $cyngga "HIDUPKAN OPEN VPN TERLEBIH DAHULU..."
 xdg-open https://play.google.com/store/apps/details?id=net.openvpn.openvpn
 ifconfig
 echo                                                                            
-read -p "Masukan Iptun0 nya (Jika tidak ada harap nyalakan openvpn terlebih dahulu) : " tun0
+read -p "Masukan Iptun0 nya : " tun0
 sleep 0.01
 echo
 clear
 echo                                                                                    
 echo $kuning "---------------------------------------------------"
 echo
-echo $putih "testermetasploit-$hijau46454$putih.portmap.io"
+echo $putih "testermetasploit-$hijau 46454$putih .portmap.io"
 echo $cyngga "Contoh LPORT saya (5 digit angka yg warna hijau)"
 echo
 read -p "Masukan LPORT kalian : " lport;
@@ -212,7 +217,9 @@ fungsi
 empat(){
 clear
 git stash && git pull origin master
-sh msfkuy.sh
+echo
+clear
+fungsi
 }
 
 lima(){
