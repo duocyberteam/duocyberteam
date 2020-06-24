@@ -242,8 +242,10 @@ sleep 1
 echo
 echo
 echo $hijau    "          TERIMAKASIH :)          "
+sleep 1
 echo
 echo $kuning "          Code By Konpoi          "
+sleep 1
 echo
 echo
 cd  $(pwd)
