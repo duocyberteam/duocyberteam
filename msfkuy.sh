@@ -17,6 +17,8 @@ putih="\033[37;1m"
 
 clear
 
+ cd $(pwd)
+
 awal(){
 echo $cyngga
 baner
