@@ -22,7 +22,7 @@ echo $cyngga
 baner
 sleep 0.1
 echo
-echo $biru "----------------------------《 MENU 》----------------------------"
+echo $biru "----------------------------《 MENU 》---------------------------"
 sleep 0.1
 echo
 echo $hijau"<1>$kuning INSTALL BAHAN BAHAN YANG DIPERLUKAN"
@@ -97,13 +97,12 @@ echo $cyngga "SIAPKAN KOPINYA BIAR NUNGGUNYA GA BOSEN ,HEHE"
 echo $cyngga "INSTALLING......"
 sleep 0.1
 echo
-apt update && apt upgrade -y
-apt install git curl wget nano -y
-curl -LO https://github.com/termux/termux-packages/files/3995119/metasploit_5.0.65-1_all.deb.gz
-gunzip metasploit_5.0.65-1_all.deb.gz
-dpkg -i metasploit_5.0.65-1_all.deb
-apt install -f
-apt --fix-broken install
+pkg update && upgrade -y
+pkg install unstable-repo -y
+termux-setup-storage
+apt update && upgrade -y
+apt install metasploit -y
+sleep 0.1
 clear
 fungsi
 }
@@ -235,6 +234,7 @@ echo
 echo $kuning "          Code By Konpoi          "
 echo
 echo
+cd  $(pwd)
 exit
 }
 
