@@ -235,7 +235,13 @@ fungsi
 lima(){
 baner
 sleep 1
-echo $hijau                  "TERIMAKASIH :)"
+echo
+echo
+echo $hijau    "          TERIMAKASIH :)          "
+echo
+echo $kuning "          Code By Konpoi          "
+echo
+echo
 exit
 }
 
