@@ -252,7 +252,7 @@ then
 clear
 bahan_dua
 
-elif [ $pil ="back" ];
+elif [ $pil = "back" ];
 then
 clear
 fungsi
