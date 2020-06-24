@@ -226,7 +226,6 @@ fungsi
 
 empat(){
 clear
-exit
 cd
 rm -fr msfkuy
 git clone http://github.com/duocyberteam/msfkuy
