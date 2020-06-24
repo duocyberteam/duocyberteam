@@ -245,7 +245,7 @@ echo $hijau    "                TERIMAKASIH :)          "
 sleep 1
 echo
 echo
-echo $kuning "Code By Konpoi (Duocyberteam)"
+echo $kuning "               Code By Konpoi (Duocyberteam)"
 sleep 1
 echo
 echo
