@@ -81,6 +81,11 @@ echo $hijau      "Code by : Konpoi <Duocyberteam>"
 sleep 1
 }
 
+back(){
+clear
+fungsi
+}
+
 satu(){
 clear
 echo
@@ -223,8 +228,9 @@ fungsi
 }
 
 lima(){
-logoex
+baner
 sleep 1
+echo $hijau                  "TERIMAKASIH :)"
 exit
 }
 
@@ -241,6 +247,7 @@ then
 clear
 bahan_dua
 
+elif [ $pil ="back" ];
 else
 clear
 echo $merah "MASUKAN INPUT YANG BENAR !"
