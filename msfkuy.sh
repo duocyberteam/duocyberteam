@@ -253,6 +253,10 @@ clear
 bahan_dua
 
 elif [ $pil ="back" ];
+then
+clear
+fungsi
+
 else
 clear
 echo $merah "MASUKAN INPUT YANG BENAR !"
