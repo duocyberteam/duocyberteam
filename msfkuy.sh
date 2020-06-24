@@ -22,7 +22,7 @@ echo $cyngga
 baner
 sleep 0.1
 echo
-echo $biru "----------------------------《 MENU 》---------------------------"
+echo $cyngga "----------------------------《 MENU 》---------------------------"
 sleep 0.1
 echo
 echo $hijau"<1>$kuning INSTALL BAHAN BAHAN YANG DIPERLUKAN"
@@ -241,10 +241,11 @@ baner
 sleep 1
 echo
 echo
-echo $hijau    "          TERIMAKASIH :)          "
+echo $hijau    "                TERIMAKASIH :)          "
 sleep 1
 echo
-echo $kuning "          Code By Konpoi          "
+echo
+echo $kuning "Code By Konpoi (Duocyberteam)"
 sleep 1
 echo
 echo
