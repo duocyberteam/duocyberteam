@@ -226,10 +226,15 @@ fungsi
 
 empat(){
 clear
-git stash && git pull origin master
+exit
+cd
+rm -fr msfkuy
+git clone http://github.com/duocyberteam/msfkuy
+sleep 0.01
+cd msfkuy
+sh msfkuy.sh
 echo
 clear
-fungsi
 }
 
 lima(){
