@@ -250,6 +250,7 @@ echo $kuning "       Code By Konpoi (Duocyberteam) "
 sleep 3
 echo
 cd  $(pwd)
+cd
 exit
 }
 
