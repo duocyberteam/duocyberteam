@@ -33,7 +33,9 @@ echo $hijau"<3>$kuning EKSEKUSI TARGET"
 sleep 0.1
 echo $hijau"<4>$kuning UPDATE SCRIPT"
 sleep 0.1
-echo $hijau"<5>$kuning EXIT"
+echo $hijau"<5>$kuning VIDEO TUTORIAL(YOUTUBE)"
+sleep 0.1
+echo $hijau"<6>$kuning EXIT"
 sleep 0.1
 echo
 echo
@@ -86,6 +88,8 @@ echo $hijau"<2>$kuning INSTALL APKTOOL & LAINNYA "
 sleep 0.1
 echo
 read -p "MASUKAN PILIHAN : " pil
+echo
+echo "input < $hijau back  > untuk ke menu awal"
 }
 
 msf_satu(){
@@ -225,6 +229,14 @@ clear
 }
 
 lima(){
+echo $kuning  "    SUBSCRIBE , LIKE , COMENT . BANTU SUPPORT YAA    "
+sleep 2
+xdg-open https://m.youtube.com/channel/UCD7oBtHBe7bbGi31BZwe0ZA
+clear
+fungsi 
+}
+
+enam(){
 baner
 sleep 1
 echo
@@ -291,6 +303,11 @@ elif [ $pi = "5" ];
 then
 clear
 lima
+
+elif [ $pi = "6" ];
+then
+clear
+enam
 
 else
 clear
