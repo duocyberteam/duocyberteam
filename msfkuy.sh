@@ -245,7 +245,7 @@ echo $hijau    "                TERIMAKASIH :)          "
 sleep 0.01
 echo
 echo
-echo $kuning "               Code By Konpoi (Duocyberteam)        "
+echo $kuning "Code By Konpoi (Duocyberteam)        "
 sleep 3
 echo
 cd  $(pwd)
