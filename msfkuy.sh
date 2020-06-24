@@ -60,25 +60,14 @@ echo $hijau "
 
 $putih "_________________________________________________________________"
 
-$cyngga   "Author"              ":"          $cyngga "Duocyberteam"
-$cyngga   "Github"              ":"          $cyngga "https://github.com/duocyberteam"
-$cyngga   "Youtube"             ":"          $cyngga "Duocyberteam Metasploit"
-$cyngga   "Thanks to"           ":"          $cyngga "Gafar Risky"
+$cyngga   "Author"           ":"           $cyngga "Duocyberteam"
+$cyngga   "Github"           ":"           $cyngga "https://github.com/duocyberteam"
+$cyngga   "Youtube"        ":"           $cyngga "Duocyberteam Metasploit"
+$cyngga   "Thanks to"     ":"           $cyngga "Gafar Risky"
 
 $putih "_________________________________________________________________"
 """
 sleep 0.1
-}
-
-logoex(){
-echo $ungu """
- ___ ____ ____ _ _  _ ____ _  _ ____ ____ _ _  _
-  |  |___ |__/ | |\/| |__| |_/  |__| [__  | |__|
-  |  |___ |  \ | |  | |  | | \_ |  | ___] | |  |
-
-echo $hijau      "Code by : Konpoi <Duocyberteam>"
-"""
-sleep 1
 }
 
 back(){
@@ -116,7 +105,7 @@ dpkg -i metasploit_5.0.65-1_all.deb
 apt install -f
 apt --fix-broken install
 clear
-satu
+fungsi
 }
 
 bahan_dua(){
