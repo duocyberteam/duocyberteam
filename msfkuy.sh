@@ -64,7 +64,7 @@ echo $hijau "
 
 $putih "_________________________________________________________________"
 
-$cyngga   "Author"           ":"           $cyngga "" Konpoi (Duocyberteam) ""
+$cyngga   "Author"           ":"          $cyngga "" Konpoi (Duocyberteam) ""
 $cyngga   "Github"           ":"           $cyngga "https://github.com/duocyberteam"
 $cyngga   "Youtube"          ":"           $cyngga "Duocyberteam Metasploit"
 $cyngga   "Thanks to"        ":"           $cyngga "Gafar Risky"
