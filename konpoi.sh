@@ -46,7 +46,7 @@ echo -n "Harap LOGIN terlebih dahulu.."
 echo
 sleep 0.1
 echo
-read -n "Masukan Username Anda : "
+read -p "Masukan Username Anda : " username
 sleep 0.1
 read -p "Password Anda :  " pass
 sleep 0.1
@@ -80,9 +80,13 @@ clear
 logo
 exit
 
-elif [ $pass = "almamur75" ];
+elif [ $username = "konpoi" ];
 then
+echo
 echo "LOGIN SUKSES !!!!"
+echo
+logo
+exit
 
 else
 echo
