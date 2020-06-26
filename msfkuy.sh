@@ -522,3 +522,5 @@ fi
 }
 
 (fungsi)
+;;
+esac
