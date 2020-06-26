@@ -521,4 +521,4 @@ fungsi
 fi
 }
 
-fungsi
+(fungsi)
