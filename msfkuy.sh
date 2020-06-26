@@ -74,6 +74,105 @@ $putih "_________________________________________________________________"
 sleep 0.1
 }
 
+logo(){
+echo $cyngga "
+    __    __    ___  _      _         __   ___   ___ ___    ___
+   |  T__T  T  /  _]| T    | T       /  ] /   \ |   T   T  /  _]
+   |  |  |  | /  [_ | |    | |      /  / Y     Y| _   _ | /  [_
+   |  |  |  |Y    _]| l___ | l___  /  /  |  O  ||  \_/  |Y    _]
+   l  `  '  !|   [_ |     T|     T/   \_ |     ||   |   ||   [_
+    \      / |     T|     ||     |\     |l     !|   |   ||     T
+     \_/\_/  l_____jl_____jl_____j \____j \___/ l___j___jl_____j
+
+                 ______   ___       ___ ___  __ __
+                |      T /   \     |   T   T|  T  T
+                |      |Y     Y    | _   _ ||  |  |
+                l_j  l_j|  O  |    |  \_/  ||  ~  |
+                  |  |  |     |    |   |   |l___, |
+                  |  |  l     !    |   |   ||     !
+                  l__j   \___/     l___j___jl____/
+
+               _____    __  ____   ____  ____   ______
+              / ___/   /  ]|    \ l    j|    \ |      T
+             (   \_   /  / |  D  ) |  T |  o  )|      |
+              \__  T /  /  |    /  |  | |   _/ l_j  l_j
+              /  \ |/   \_ |    \  |  | |  |     |  |
+              \    |\     ||  .  Y j  l |  |     |  |
+               \___j \____jl__j\_j|____jl__j     l__j
+
+
+                    $merah ""Code By KONPOI (Duocyberteam) ""
+$hijau "______________________________________________________________________>
+"""
+}
+
+login(){
+logo
+echo
+echo $kuning "                        Hai, Selamat Datang!            "
+echo
+echo
+sleep 0.1
+echo "                     Harap LOGIN terlebih dahulu.. "
+echo
+sleep 0.1
+echo "     Untuk memasuki Script.. Password ada di channel youtube saya"
+echo
+echo
+echo
+sleep 0.1
+echo
+echo
+echo -n "Masukan NAMA ANDA : "
+read username
+sleep 0.1
+echo
+read -p "Masukan PASSWORD :  " pass
+sleep 0.1
+echo
+echo
+echo
+echo
+echo
+echo
+echo
+echo
+echo
+echo
+echo
+echo
+echo
+echo
+}
+
+loginfungsi(){
+clear
+login
+
+if [ $pass = "buka1234" ];
+then
+echo $hijau "                                 LOGIN SUKSES     "
+sleep 2
+clear
+logo
+exit
+
+else
+echo
+echo $cyngga "                         MAAF $username,PASSWORD SALAH !         >
+echo $cyngga "             HARAP CEK YOUTUBE SAYA UNTUK MENGETAHUI PASSWORDNYA "
+sleep 3
+xdg-open https://m.youtube.com/channel/UCD7oBtHBe7bbGi31BZwe0ZA
+sleep 0.01
+for i in ulang
+do
+      echo $fungsilogin
+done
+fungsi
+
+fi
+}
+
 back(){
 clear
 fungsi
@@ -283,6 +382,7 @@ fi
 }
 
 fungsi(){
+loginfungsi
 awal
 if [ $pi = "1" ];
 then
