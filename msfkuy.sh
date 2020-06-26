@@ -106,6 +106,7 @@ echo $cyngga "
                     $merah ""Code By KONPOI (Duocyberteam) ""
 $hijau "______________________________________________________________________>
 """
+sleep 0.1
 }
 
 login(){
