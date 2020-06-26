@@ -27,19 +27,19 @@ echo
 echo $cyngga "----------------------------《 MENU 》---------------------------"
 sleep 0.1
 echo
-echo $hijau"<1>$kuning INSTALL BAHAN BAHAN YANG DIPERLUKAN"
+echo $hijau"< 1 >$kuning INSTALL BAHAN BAHAN YANG DIPERLUKAN"
 sleep 0.1
-echo $hijau"<2>$kuning BUAT BACKDOOR BARU"
+echo $hijau"< 2 >$kuning BUAT BACKDOOR BARU"
 sleep 0.1
-echo $hijau"<3>$kuning EKSEKUSI TARGET"
+echo $hijau"< 3 >$kuning EKSEKUSI TARGET"
 sleep 0.1
-echo $hijau"<4>$kuning LOCK SECURITY APK TERMUK KALIAN
+echo $hijau"< 4 >$kuning LOCK SECURITY APK TERMUK KALIAN"
 sleep 0.1
-echo $hijau"<5>$kuning UPDATE SCRIPT"
+echo $hijau"< 5 >$kuning UPDATE SCRIPT"
 sleep 0.1
-echo $hijau"<6>$kuning VIDEO TUTORIAL(YOUTUBE)"
+echo $hijau"< 6 >$kuning VIDEO TUTORIAL(YOUTUBE)"
 sleep 0.1
-echo $hijau"<7>$kuning EXIT"
+echo $hijau"< 7 >$kuning EXIT"
 sleep 0.1
 echo
 echo
