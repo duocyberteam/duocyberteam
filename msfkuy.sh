@@ -33,11 +33,13 @@ echo $hijau"<2>$kuning BUAT BACKDOOR BARU"
 sleep 0.1
 echo $hijau"<3>$kuning EKSEKUSI TARGET"
 sleep 0.1
-echo $hijau"<4>$kuning UPDATE SCRIPT"
+echo $hijau"<4>$kuning LOCK SECURITY APK TERMUK KALIAN
 sleep 0.1
-echo $hijau"<5>$kuning VIDEO TUTORIAL(YOUTUBE)"
+echo $hijau"<5>$kuning UPDATE SCRIPT"
 sleep 0.1
-echo $hijau"<6>$kuning EXIT"
+echo $hijau"<6>$kuning VIDEO TUTORIAL(YOUTUBE)"
+sleep 0.1
+echo $hijau"<7>$kuning EXIT"
 sleep 0.1
 echo
 echo
@@ -162,11 +164,12 @@ echo
 echo $cyngga "                         MAAF $username,PASSWORD SALAH !         >
 echo $cyngga "             HARAP CEK YOUTUBE SAYA UNTUK MENGETAHUI PASSWORDNYA "
 sleep 3
-xdg-open https://m.youtube.com/channel/UCD7oBtHBe7bbGi31BZwe0ZA
+xdg-open https://youtu.be/Pxwi3xRpBsE
+
 sleep 0.01
 for i in ulang
 do
-      echo $fungsilogin
+      echo $loginfungsi
 done
 fungsi
 
@@ -319,6 +322,92 @@ fungsi
 
 empat(){
 clear
+echo
+baner
+echo $hijau"<1> $kuning BUAT PASSWORD / RUBAH PASSWORD "
+sleep 0.1
+echo
+echo $hijau"<2> $kuning TERAPKAN KUNCI PASSWORD APK TERMUK "
+sleep 0.1
+echo
+read -p "Masukan Pilihan : " pul
+}
+
+buatpass(){
+clear
+echo
+baner
+echo
+echo $cyngga "HAL YANG HARUS DI LAKUKAN ."
+echo
+echo $cyngga "1. Klik CTRL+W lalu ketik buka1234.
+echo $cyngga "2. Kalian akan di arahkan ke teks buka1234
+echo $cyngga "3. Lalu kalian ganti teks buka1234 itu dgn password kalian"
+echo $cyngga "4. Tanda petiknya jangan di hapus. Anda hapus teks buka1234 nya saja"
+echo $cyngga "5. Jika sudah klik CTRL+X , lalu ketik y  ,kemudian enter"
+echo $cyngga "6. Jika sudah masuk ke script saya lagi, dan lanjut ke tahap ke 2"
+echo $cyngga "
+echo $cyngga "Saya kasih waktu 15 detik untuk membaca dan memahaminya. "
+echo $cyngga "Setelah ini anda akan di alihkan ke script lock. Dan lakukan perintah no 1-6"
+sleep 15
+cd
+git clone https://github.com/konpoi/lock
+sleep 0.1
+cd lock
+nano lock.sh
+}
+
+terapkanpass(){
+clear
+echo
+baner
+echo
+echo $cyngga "HAL YG HARUS DILAKUKAN (2)."
+echo
+echo $cyngga "1. Setelah ini anda akan di alihkan ke bash.rc"
+echo $cyngga "2. Di bash rc, anda ketik < sh lock.sh > . Ketik teksnya aja , yg < > gausah.
+echo $cyngga "3. Ketik di kolom paling bawah. Enter dulu sampe 3 kali."
+echo
+echo $cyngga "Saya kasih waktu 8 detik untuk membaca dan memahaminya"
+echo $cyngga "Setelah ini anda akan dialihkan ke bash.rc"
+sleep 8
+cd
+cd lock
+cp -f lock.sh /$HOME
+cd
+cd ../usr/etc
+nano bash.bashrc
+}
+
+passfungsi(){
+empat
+echo
+if [ $pul = "1" ];
+then
+clear
+buatpass
+
+elif [ $pul = "2" ];
+then
+clear
+terapkanpass
+
+elif [ $pull = "back" ];
+then
+clear
+fungsi
+
+else
+echo $merah "                                        MASUKAN INPUT YANG BENAR !!! "
+sleep 0.1
+clear
+passfungsi
+
+fi
+}
+
+lima(){
+clear
 cd
 rm -fr msfkuy
 git clone http://github.com/duocyberteam/msfkuy
@@ -329,7 +418,7 @@ echo
 clear
 }
 
-lima(){
+enam(){
 echo $kuning  "    SUBSCRIBE , LIKE , COMENT . BANTU SUPPORT YAA    "
 sleep 2
 xdg-open https://m.youtube.com/channel/UCD7oBtHBe7bbGi31BZwe0ZA
@@ -337,7 +426,7 @@ clear
 fungsi 
 }
 
-enam(){
+tujuh(){
 baner
 sleep 0.01
 echo
@@ -412,6 +501,11 @@ elif [ $pi = "6" ];
 then
 clear
 enam
+
+elif [ $pi = "7" ];
+then
+clear
+tujuh
 
 else
 clear
