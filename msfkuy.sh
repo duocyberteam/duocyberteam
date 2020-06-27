@@ -165,7 +165,7 @@ echo
 echo $cyngga "                         MAAF $username,PASSWORD SALAH !         >
 echo $cyngga "             HARAP CEK YOUTUBE SAYA UNTUK MENGETAHUI PASSWORDNYA "
 sleep 3
-xdg-open https://youtu.be/Pxwi3xRpBsE
+xdg-open "https://youtu.be/Pxwi3xRpBsE"
 
 sleep 0.01
 for i in ulang
@@ -376,7 +376,7 @@ cd
 cd lock
 cp -f lock.sh /$HOME
 cd
-cd ../usr/etc
+cd "../usr/etc"
 nano bash.bashrc
 }
 
@@ -422,7 +422,7 @@ clear
 enam(){
 echo $kuning  "    SUBSCRIBE , LIKE , COMENT . BANTU SUPPORT YAA    "
 sleep 2
-xdg-open https://m.youtube.com/channel/UCD7oBtHBe7bbGi31BZwe0ZA
+xdg-open "https://m.youtube.com/channel/UCD7oBtHBe7bbGi31BZwe0ZA"
 clear
 fungsi 
 }
